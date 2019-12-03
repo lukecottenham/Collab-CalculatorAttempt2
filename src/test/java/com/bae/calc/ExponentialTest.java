@@ -10,7 +10,6 @@ public class ExponentialTest {
     public void testExponential() throws Exception {
         Exponential exponential = new Exponential();
 
-        Exponential.exponential("X to the A");
         String answer = Exponential.exponential(2, 2);
 
         Assert.assertEquals(answer, "The answer is: 4.0");
@@ -20,7 +19,6 @@ public class ExponentialTest {
     public void testExponent0() throws Exception {
         Exponential exponential = new Exponential();
 
-        Exponential.exponential("X to the A");
         String answer = Exponential.exponential(2, 0);
 
         Assert.assertEquals("The answer is: 1.0",answer);
@@ -30,7 +28,6 @@ public class ExponentialTest {
     public void test0ToThePowerOfX() throws Exception {
         Exponential exponential = new Exponential();
 
-        Exponential.exponential("X to the A");
         String answer = Exponential.exponential(0,2);
 
         Assert.assertEquals("The answer is: 0.0", answer);
@@ -40,7 +37,6 @@ public class ExponentialTest {
         public void test0ToThePowerOf0() throws ExportException {
             Exponential exponential = new Exponential();
 
-            Exponential.exponential("X to the A");
             String answer = exponential.exponential(0,0);
 
             Assert.assertEquals("The answer is: 1.0",answer);
@@ -50,7 +46,6 @@ public class ExponentialTest {
     public void test2ToTheMinus2() throws ExportException {
         Exponential exponential = new Exponential();
 
-        Exponential.exponential("X to the A");
         String answer = exponential.exponential(2, -2);
 
         Assert.assertEquals("The answer is: 0.25",answer);
@@ -60,7 +55,6 @@ public class ExponentialTest {
     public void test0ToTheMinus2() {{
         Exponential exponential = new Exponential();
 
-        Exponential.exponential("X to the A");
         String answer = exponential.exponential(0, -2);
 
         Assert.assertEquals("The answer is: Infinity",answer);
