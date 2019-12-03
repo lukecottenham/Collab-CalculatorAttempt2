@@ -20,5 +20,4 @@ public class MultiplicationTest {
 		Assert.assertEquals ("The answer is 540", multiplyResult3);
 		Assert.assertEquals ("The answer is -92", multiplyResult4);
 	}
-
 }
