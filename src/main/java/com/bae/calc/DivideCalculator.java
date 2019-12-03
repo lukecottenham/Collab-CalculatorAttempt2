@@ -1,8 +1,11 @@
 package com.bae.calc;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+
 public class DivideCalculator {
 
-	public String divide(int number, int divisor) {
+	public String divide(double number, double divisor) {
 		String result = null;
 		double answer = 0; 
 		if (divisor == 0) {
@@ -10,8 +13,9 @@ public class DivideCalculator {
 		}
 		else {
 			answer = number / divisor;
-			System.out.println(answer %.3f);
-			result = number + " / " + divisor + " = " + answer;
+			DecimalFormat doubleTo3DP = new DecimalFormat("#.####");
+			doubleTo3DP.setRoundingMode(RoundingMode.CEILING);
+			result = doubleTo3DP.format(number) + " / " + doubleTo3DP.format(divisor) + " = " + doubleTo3DP.format(answer);
 		}
 		
 		return result;
