@@ -1,4 +1,4 @@
-package MultiplicationTest;
+package com.bae.calcTest;
 
 import org.junit.Assert;
 import org.junit.Test;

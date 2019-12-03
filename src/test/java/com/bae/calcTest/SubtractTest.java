@@ -1,4 +1,4 @@
-package com.bae.subtractTest;
+package com.bae.calcTest;
 
 import org.junit.Assert;
 import org.junit.Test;
