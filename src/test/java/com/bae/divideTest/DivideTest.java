@@ -17,7 +17,7 @@ public class DivideTest {
 
 		Assert.assertEquals("Cannot divide by 0", divideResult0);
 		Assert.assertEquals("2 / 3 = 0.6667", divideResult1);
-		Assert.assertEquals("100 / 3 =  33.3333", divideResult2);
+		Assert.assertEquals("100 / 3 = 33.3333", divideResult2);
 
 		
 		

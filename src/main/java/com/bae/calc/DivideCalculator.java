@@ -14,7 +14,7 @@ public class DivideCalculator {
 		else {
 			answer = number / divisor;
 			DecimalFormat doubleTo3DP = new DecimalFormat("#.####");
-			doubleTo3DP.setRoundingMode(RoundingMode.CEILING);
+			doubleTo3DP.setRoundingMode(RoundingMode.HALF_UP);
 			result = doubleTo3DP.format(number) + " / " + doubleTo3DP.format(divisor) + " = " + doubleTo3DP.format(answer);
 		}
 		
