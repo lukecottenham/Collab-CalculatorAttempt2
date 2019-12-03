@@ -1,15 +1,17 @@
 package CalculatorTest;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import junit.framework.Assert;
+import com.bae.calc.addCalculator;
+
 
 public class CalculatorTest {
 	
 
 	@Test
 	public void addCalculatorTest() {
-	Calculator calc = new Calculator();	
+	addCalculator calc = new addCalculator();	
 	String addResult1 = calc.add(15, 12);
 	String addResult2 = calc.add(-24, -12);
 	String addResult3 = calc.add(-12, 1231);
