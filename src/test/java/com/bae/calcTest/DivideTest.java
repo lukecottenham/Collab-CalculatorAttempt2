@@ -1,4 +1,4 @@
-package com.bae.divideTest;
+package com.bae.calcTest;
 
 
 import org.junit.Assert;

@@ -1,4 +1,4 @@
-package CalculatorTest;
+package com.bae.calcTest;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import com.bae.calc.addCalculator;
 
 
-public class CalculatorTest {
+public class AddTest {
 	
 
 	@Test
