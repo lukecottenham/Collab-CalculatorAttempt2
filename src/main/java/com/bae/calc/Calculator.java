@@ -1,5 +1,5 @@
 package com.bae.calc;
 
-public class Calculator {
+public abstract class Calculator {
 
 }
