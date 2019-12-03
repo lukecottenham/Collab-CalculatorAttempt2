@@ -4,7 +4,7 @@ package com.bae.divideTest;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.bae.app.DivideCalculator;
+import com.bae.calc.DivideCalculator;
 
 public class DivideTest {
 

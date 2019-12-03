@@ -1,4 +1,4 @@
-package com.bae.app;
+package com.bae.calc;
 
 public class DivideCalculator {
 
